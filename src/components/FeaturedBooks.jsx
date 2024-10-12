@@ -11,7 +11,7 @@ export function FeaturedBooks() {
     <section className="bg-[#f1ebfb] container  py-16">
       <div className="max-w-6xl mx-auto px-4">
         <Slide triggerOnce={true} direction='right'>
-        <h2 className="text-3xl roboto-medium font-bold mb-8 text-center">Featured <span className="text-[#7342D6]">Books</span></h2>
+        <h2 className="text-[28px] sm:text-[37px]  roboto-medium font-bold mb-8 text-center">Featured <span className="text-[#7342D6]">Books</span></h2>
         </Slide>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">

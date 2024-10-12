@@ -59,7 +59,7 @@ function Cart() {
             ))}
           </div>
           <div className="flex justify-end">
-            <div className="w-2/5 ">
+            <div className="w-full sm:w-2/5 ">
               <div className="flex justify-between mb-2">
                 <span>Subtotal</span>
                 <span>${subtotal.toFixed(2)}</span>

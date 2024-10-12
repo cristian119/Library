@@ -6,7 +6,7 @@ export function CTA (){
       <div className="max-w-6xl mx-auto text-center">
         <Slide triggerOnce={true} >
           
-        <h1 className="text-4xl font-bold mb-12 roboto-bold">Why choose <span className="text-[#7342D6]">Library</span></h1>
+        <h1 className="text-[28px] sm:text-[37px]  font-bold mb-12 roboto-bold">Why choose <span className="text-[#7342D6]">Library</span></h1>
                 </Slide>
 
         <div className="space-y-12 lg:space-y-0 lg:flex lg:justify-between">

@@ -12,7 +12,7 @@ export function DiscountBook() {
     <section className="bg-white container  py-16">
       <div className="max-w-6xl mx-auto px-4">
         <Slide triggerOnce={true}  >
-        <h2 className="text-3xl roboto-medium font-bold mb-8 text-center">Discount <span className="text-[#7342D6]">Books</span></h2>
+        <h2 className="text-[28px] sm:text-[37px]  roboto-medium font-bold mb-8 text-center">Discount <span className="text-[#7342D6]">Books</span></h2>
         </Slide>
       
 
