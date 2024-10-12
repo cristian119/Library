@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 export function Footer () {
   return (
-    <footer className="bg-[#242424] container border-2 border-red-500 text-white py-8">
+    <footer className="bg-[#242424] container  text-white py-8">
   <div className="container mx-auto px-4">
     <div className="flex flex-col items-center mb-4">
       <div className="flex items-center mb-4">
-      <img src="/logo.svg" alt="" className="h-14 w-96 text-white filter invert brightness-0 " />
+      <img src="/logo.svg" alt="" className="h-16 w-96 text-white filter invert brightness-0 " />
 
       </div>
     </div>
@@ -17,7 +17,7 @@ export function Footer () {
 </nav>
 
     <p className="text-center text-sm">
-      Copyright © 2021 Library
+      Copyright © 2024 Library
     </p>
   </div>
 </footer>

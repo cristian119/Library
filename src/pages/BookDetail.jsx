@@ -52,10 +52,10 @@ function BookDetail({ booksData }) {
         ← Back to Books
       </Link>
       <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
-        <div className="md:w-1/3 bg-gray-200">
-          <img src={book.cover} alt={book.title} className="w-full h-full object-cover" />
+        <div className="w-full md:w-1/3 flex items-center justify-center p-4 sm:p-8 ">
+          <img src={book.cover} alt={book.title} className="w-3/4  md:w-3/4 lg:w-full h-auto object-contain md:max-h-64 lg:max-h-96" />
         </div>
-        <div className="md:w-2/3 p-8">
+        <div className="w-full md:w-2/3 p-8">
           <h1 className="text-4xl font-bold mb-4">{book.title}</h1>
           <p className="text-xl text-gray-600 mb-4">by {book.author}</p>
           <div className="flex items-center mb-4">

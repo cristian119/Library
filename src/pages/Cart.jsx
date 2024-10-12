@@ -1,4 +1,3 @@
-// src/pages/Cart.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from '../CartContext';
@@ -15,7 +14,7 @@ function Cart() {
       <h1 className="text-3xl font-bold mb-8">Cart</h1>
       
       {/* Cart navbar - shown in both empty and non-empty states */}
-      <div className="bg-purple-600 text-white p-4 ">
+      <div className="bg-[#7342D6] text-white p-4 ">
         <div className="flex justify-between items-center">
           <span className="font-semibold w-1/2">Book</span>
           <span className="font-semibold w-1/4 text-center">Quantity</span>
@@ -25,9 +24,9 @@ function Cart() {
       
       {cartItems.length === 0 ? (
         <div className=" p-4 rounded-b-lg text-center">
-          <img src="/emptyCart.svg" alt="Empty Cart" className="mx-auto w-1/3 mb-4" />
-          <p className="text-xl mb-8">You don't have any books in your cart!</p>
-          <Link to="/books" className="bg-purple-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-purple-700 transition duration-300">
+          <img src="/emptyCart.svg" alt="Empty Cart" className="mx-auto w-full sm:w-1/3 mb-4" />
+          <p className="text-2xl roboto-bold mb-8">You don't have any books in your cart!</p>
+          <Link to="/books" className="bg-[#7342D6] text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-purple-700 transition duration-300">
             Browse books
           </Link>
         </div>
@@ -60,22 +59,22 @@ function Cart() {
             ))}
           </div>
           <div className="flex justify-end">
-            <div className="w-1/3">
+            <div className="w-2/5 ">
               <div className="flex justify-between mb-2">
                 <span>Subtotal</span>
                 <span>${subtotal.toFixed(2)}</span>
               </div>
               <div className="flex justify-between mb-2">
-                <span>Tax</span>
+                <span>Tax (10%)</span>
                 <span>${tax.toFixed(2)}</span>
               </div>
               <div className="flex justify-between font-bold text-lg">
                 <span>Total</span>
                 <span>${total.toFixed(2)}</span>
               </div>
-              <button className="w-full mt-4 bg-purple-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-purple-700 transition duration-300">
-                Proceed to Checkout
-              </button>
+                                                     <button className="w-full mt-4 bg-[#7342D6] text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg text-sm sm:text-lg font-semibold hover:bg-purple-700 transition duration-300">
+                                            Proceed to Checkout
+                                          </button>
             </div>
           </div>
         </>

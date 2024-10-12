@@ -26,6 +26,10 @@ html, body {
   font-style: normal;
 }
 
+.highlight {
+  color: blue; /* Change this to your desired style */
+  font-weight: bold; /* Change this to your desired style */
+}
 
 
 

@@ -16,12 +16,12 @@ export function NavBar() {
 
   return (
     <>
-      <nav className="bg-white fixed top-0 left-0 right-0 z-50 w-full border-b-2 border-red-500">
+      <nav className="bg-white fixed top-0 left-0 right-0 z-50 w-full border-b-2 border-gray-300">
         <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 py-2">
           {/* Logo */}
           <div>
             <Link to="/">
-              <img src="/logo.svg" alt="Home" className="h-12 w-auto cursor-pointer" />
+              <img src="/logo.svg" alt="Home" className="h-14 w-auto cursor-pointer" />
             </Link>
           </div>
           
@@ -37,7 +37,7 @@ export function NavBar() {
           {/* Mobile menu icon (visible on small screens) */}
           <div className="md:hidden">
             <button onClick={toggleMenu}>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10 text-[#7342d6]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-11 h-11 mr-2 text-[#7342d6]">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
               </svg>
             </button>
