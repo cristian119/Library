@@ -14,7 +14,7 @@ export function HeroSection(){
         <div className="max-w-4xl mx-auto px-4">
           <Fade direction="down" duration={1500} triggerOnce={true}>
             <h1 className="text-[28px] sm:text-[37px] md:text-[56px] font-extrabold mb-6 sm:mb-4 roboto-bold text-[#7342D6]">
-              Australia's most awarded online library platform
+              Racine most awarded online library platform
             </h1>
           </Fade>
 
